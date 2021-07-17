@@ -1,0 +1,159 @@
+.container {
+  position: relative;
+  width: 1130px;
+  height: inherit;
+  margin: 0 auto;
+}
+
+.header-top,
+.gnb {
+  border-bottom: 1px solid #e4e8eb;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  height: 160px;
+}
+
+.header-top-main {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+
+.logo a {
+  display: block;
+  width: 333px;
+  padding: 30px 0;
+}
+
+.logo-image {
+  display: block;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form input {
+  width: 530px;
+  height: 56px;
+  border: 2px solid #19ce60;
+}
+
+.ic-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #19ce60;
+}
+
+.header-top-service {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.set-home-btn {
+  font-size: 11px;
+  color: #404040;
+}
+
+.set-home-btn::after {
+  content: '|';
+  margin: 0 7px;
+}
+
+.service-btn-group {
+  font-size: 13px;
+  font-weight: 700;
+  color: #404040;
+}
+
+.service-btn-group a:first-child {
+  margin-right: 4px;
+}
+
+.gnb {
+  height: 52px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.gnb-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.gnb-nav {
+  display: flex;
+}
+
+.gnb-list {
+  display: flex;
+}
+
+.gnb-item {
+  margin-right: 4px;
+  font-weight: 700;
+}
+
+.gnb-item a {
+  display: inline-block;
+  padding: 4px;
+}
+
+.gnb-list.main-menu {
+  color: #03c75a;
+}
+
+.gnb-more {
+  padding: 4px;
+}
+
+.gnb-weather-info {
+  height: inherit;
+  overflow: hidden;
+}
+
+.gnb-weather-info a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 15px 0;
+}
+
+.gnb-weather-info a:hover .location {
+  text-decoration: underline;
+}
+
+.temperature .current {
+  font-size: 16px;
+  color: #202020;
+  margin-right: 8px;
+}
+
+.temperature span {
+  margin: 0 4px;
+}
+
+.temperature .min {
+  color: #2586ee;
+}
+
+.temperature .max {
+  color: #e9564a;
+}
+
+.location {
+  margin-left: 4px;
+}
